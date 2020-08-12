@@ -1,0 +1,13 @@
+.website__link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 122%;
+    color: #fff;    
+    align-self: end;
+    margin: 0;
+    padding: 0;
+}
+.website__link:hover {
+    opacity: .8;
+    transition-duration: .6s;
+}

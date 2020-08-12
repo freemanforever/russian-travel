@@ -1,0 +1,13 @@
+.place__paragraph {
+    font-size: 18px;
+    line-height: 163%;
+    min-height: 29px;
+    font-weight: normal;    
+    max-width: 484px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    gap: 0;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+}
