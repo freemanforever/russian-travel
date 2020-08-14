@@ -4,7 +4,10 @@
     position: relative;    
     background: url(../../../images/cover-trains.jpg) center center no-repeat;
     min-height: 740px;    
+    align-items: center;
+    justify-content: center;
     background-size: cover;
+    background-position: center;
     color: #fff;
     z-index: 9;
 }

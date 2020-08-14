@@ -6,13 +6,28 @@
     text-align: center;
     min-height: 120%;
     font-weight: normal;
-}/*
-@media screen and (max-width: 320px) {
+}
+@media screen and (max-width: 425px) {
     .lead__subtitle {
         max-width: 288px;
         font-size: 16px;
         line-height: 125%;
         min-height: 20px;
-        margin: 16px auto 40px;
+        margin: 0 auto 40px;
+        width: 90%;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 125%;
+        min-height: 20px;
+        margin: 0 auto 40px;
+        max-width: 288px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+    .lead__subtitle {
+        margin: 0 auto 56px;
     }
 }
