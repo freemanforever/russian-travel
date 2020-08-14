@@ -11,3 +11,8 @@
     opacity: .8;
     transition-duration: .6s;
 }
+@media screen and (max-width: 767px) {
+    .website__link {
+        display: none;
+    }
+}

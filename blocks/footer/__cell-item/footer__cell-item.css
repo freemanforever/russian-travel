@@ -1,0 +1,11 @@
+.footer__cell-item {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 639px) {
+    .footer__cell-item {
+        margin-bottom: 32px;
+    }
+    .footer__cell-item:last-child {
+        margin-bottom: 0;
+    }
+}

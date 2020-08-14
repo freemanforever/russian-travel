@@ -5,9 +5,15 @@
     min-height: 76px;
     text-align: center;
     max-width: 560px;
-    margin-top: 0;
+    margin: 0 auto;
+    padding: 0;
     z-index: 1;
-    align-self: center;
-    top: 245px;
-    left: auto;
+}
+@media only screen and (max-width: 767px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        min-height: 35px;
+    }
 }
