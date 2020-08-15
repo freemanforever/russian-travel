@@ -2,7 +2,6 @@
     margin: 0 0 0 auto;
     font-size: 14px;
     line-height: 16px;
-    min-height: 16px;
     display: flex;
     align-items: flex-end;  
     align-self: end;
@@ -10,8 +9,7 @@
 @media screen and (max-width: 639px) {
     .footer__copyright {
         max-width: 186px;
-        min-height: 14px;
-        line-height: 14px;
+        line-height: 14px;        
         padding-top: 48px;
         width: 100%;
         align-items: flex-start;

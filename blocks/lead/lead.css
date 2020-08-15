@@ -2,14 +2,9 @@
     padding-top: 48px;
     display: flex;
     flex-direction: column;
-    width: 73%;  
+    width: 100%;  
     margin: 0 auto;
-}
-@media screen and (min-width: 1280px) {
-    .lead {
-        padding-top: 56px;
-        max-width: 984px;
-    }
+    max-width: 984px;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .lead {
@@ -27,5 +22,10 @@
     .lead {
         width: 100%;
         max-width: 425px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .lead {
+        padding-top: 56px;
     }
 }

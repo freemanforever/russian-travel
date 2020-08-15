@@ -2,7 +2,6 @@
     display: flex;
     padding-top: 28px;
     margin: 0 auto;
-    min-height: 52px;
     justify-content: space-between;
     width: 92.75%;
     max-width: 1184px;
@@ -22,7 +21,6 @@
 @media screen and (min-width: 320px) and (max-width: 425px) {
     .header {
         max-width: 393px;
-        min-height: 42px;
         padding-top: 16px;
         width: 92.5%;
     }
@@ -30,7 +28,6 @@
 @media screen and (max-width: 320px) {
     .header {
         max-width: 288px;
-        min-height: 42px;
         padding-top: 16px;
         width: 90%;
     }
