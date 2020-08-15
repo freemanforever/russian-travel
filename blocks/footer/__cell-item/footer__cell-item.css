@@ -1,9 +1,11 @@
 .footer__cell-item {
-    margin-bottom: 0;
+    margin-bottom: 0;    
+    margin-right: 18px;
 }
 @media screen and (max-width: 639px) {
     .footer__cell-item {
         margin-bottom: 32px;
+        margin-right: 0;
     }
     .footer__cell-item:last-child {
         margin-bottom: 0;

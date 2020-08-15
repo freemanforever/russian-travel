@@ -1,15 +1,15 @@
-.website {
+.place__website {
     align-self: end;
     grid-column: 2/3;
     max-width: 456px;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .website {
+    .place__website {
         max-width: 352px;
     }
 }
 @media screen and (max-width: 767px) {
-    .website {
+    .place__website {
         display: none;
     }
 }
