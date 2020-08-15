@@ -9,8 +9,9 @@
     align-self: center;
     padding-top: 32px;
 }
+
 @media only screen and (max-width: 767px) {
-    .cover__subtitle { 
+    .cover__subtitle {
         padding-top: 16px;
         font-size: 14px;
         line-height: 16px;

@@ -6,20 +6,23 @@
     max-width: 1184px;
     margin: 0 auto;
 }
+
 @media screen and (max-width: 1279px) {
     .photo-grid {
         gap: 14px;
         max-width: 928px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .photo-grid {
         max-width: 720px;
-        padding-top: 88px;       
+        padding-top: 88px;
     }
 }
+
 @media screen and (max-width: 425px) {
-    .photo-grid {        
+    .photo-grid {
         gap: 12px;
         max-width: 288px;
         padding-top: 65px;
