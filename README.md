@@ -1,7 +1,7 @@
 # Проект Путешествие по России
 ------
 
-_An adaptive single page application about Russian cities._
+_Адаптивный одностраничный сайт_
 
 **Стек:**
 
@@ -10,7 +10,7 @@ _An adaptive single page application about Russian cities._
 
 **Реализация:**
 
-- flex and grid layouts;
-- media queries for the site adaptability;
-- nested BEM-methodology.
+- flex и grid layouts;
+- медиа запросы, адаптивная и респонсивная вёрстка;
+- использована БЭМ методология.
 ___
